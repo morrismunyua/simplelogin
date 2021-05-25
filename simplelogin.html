@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title>LogIn Page</title>
+    <Style>
+        #Container{
+            display: block;
+            align-items: center;
+            border-bottom: 1em;
+            text-align: center;
+            margin-top: 10%;
+            font-family: "montserrat",sans-serif;
+            background-color: cornsilk;
+            width: 20em;
+            margin-left: 40%;
+            
+        }
+        #btn{
+            color: blue;
+            size: 3em;
+        }
+        #top{
+            font-style: italic;
+            font-size: 2em;
+
+        }
+        #btn.hover{
+            color: blueviolet;
+        }
+    </Style>
+    <script>
+        function popup(){
+            alert ("You are loged in Sir")
+        }
+    </script>
+</head>
+<body>
+    <div id="Container">
+    <img src="career2.png"><br/>
+    <h1 id="top">Login Page for our users</h1>
+    Username: <input type="text" ></input><br/>
+    Password : <input type="password"> </input><br/>
+    <input type="button" Value="Login" onclick="popup()" id="btn"><br/>
+    </div>
+</body>
+</html>
